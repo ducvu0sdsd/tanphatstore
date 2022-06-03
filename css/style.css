@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "poppins";
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -52,6 +52,7 @@ body {
 
 .content {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .banner img {
@@ -94,6 +95,7 @@ body {
     margin: 20px 0;
     border-radius: 15px;
     overflow: hidden;
+    font-family: "poppins";
 }
 
 .icon {
@@ -205,4 +207,55 @@ body {
 
 .action button:hover {
     background-color: orange;
+}
+
+.footer {
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-map {
+    width: 35%;
+    height: 90%;
+}
+
+iframe {
+    margin-top: 65px;
+}
+
+.information {
+    height: 90%;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.information h3 {
+    color: white;
+    margin-top: 65px;
+    transform: translateX(-100px);
+}
+
+.contact-icon {
+    font-size: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px dashed white;
+}
+
+.contact-icon a {
+    color: white;
+}
+
+.copyright {
+    line-height: 70px;
+    color: white;
+    background-color: black;
+}
+
+.copyright p {
+    margin-left: 120px;
 }
