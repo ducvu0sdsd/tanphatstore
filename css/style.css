@@ -543,7 +543,7 @@ iframe {
         transform: translate(-5px, -110px);
     }
     .product:hover .price {
-        transform: translate(-53px, -70px);
+        transform: translate(0px, -70px);
     }
     .product:hover .action {
         transform: translate(0px, -70px);
@@ -592,7 +592,7 @@ iframe {
         transform: translate(0px, -60px);
     }
     .product:hover .price {
-        transform: translate(-30px, -65px);
+        transform: translate(0px, -65px);
     }
     .product:hover .action {
         transform: translate(0px, -65px);
