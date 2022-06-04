@@ -246,12 +246,6 @@ iframe {
     line-height: 35px;
 }
 
-.information h3 {
-    color: white;
-    margin-top: 65px;
-    transform: translateX(-100px);
-}
-
 .contact-icon {
     font-size: 40px;
     padding-bottom: 20px;
@@ -632,5 +626,6 @@ iframe {
     .information {
         height: 400px;
         margin: -20px 0;
+        font-size: 15px;
     }
 }
