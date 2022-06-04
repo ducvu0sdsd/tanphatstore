@@ -46,20 +46,11 @@ body {
     font-size: 25px;
     font-weight: bold;
     float: right;
-    transform: translate(-35px, -45px);
+    transform: translate(-35px, -485px);
     cursor: pointer;
 }
 
-#catemobile {
-    line-height: 50px;
-    font-size: 25px;
-    margin-left: 100%;
-    display: none;
-    cursor: pointer;
-}
-
-.search,
-.cate {
+.search {
     color: white;
 }
 
@@ -446,6 +437,37 @@ iframe {
     margin-top: -30px;
 }
 
+.nav-mobile {
+    line-height: 50px;
+    padding: 20px;
+    background-color: black;
+    width: 240px;
+    list-style: none;
+    color: white;
+    border-radius: 15px;
+    /* transform: translateX(-280px);*/
+    margin-left: -280px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.nav-mobile li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-mobile .li-special i {
+    transform: translate(80px, 7px);
+}
+
+.cate {
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    display: none;
+    transition: 0.5s;
+}
+
 
 /* table : width < 1024 px*/
 
@@ -456,9 +478,6 @@ iframe {
     }
     .search {
         display: none;
-    }
-    .cate {
-        display: block;
     }
     .new-arrivals {
         margin-top: 0px;
@@ -474,11 +493,15 @@ iframe {
     .text-footer {
         display: none;
     }
-    #catemobile {
+    .nav {
+        display: none;
+    }
+    .cate {
         display: block;
     }
-    .menu {
-        width: 200px;
+    .nav-mobile {
+        background-color: black;
+        margin-top: -55px;
     }
 }
 
@@ -513,12 +536,6 @@ iframe {
     }
     .banner-mini {
         height: 300px;
-    }
-    #catemobile {
-        display: block;
-    }
-    #catemobile {
-        transform: translate(-30px, -50px);
     }
     .information {
         height: 800px;
@@ -575,9 +592,6 @@ iframe {
     .list-product {
         width: 100%;
     }
-    .cate {
-        transform: translate(-25px, -45px);
-    }
     .tieudenew {
         margin: -40px;
     }
@@ -603,8 +617,5 @@ iframe {
     .information {
         height: 400px;
         margin: -20px 0;
-    }
-    #catemobile {
-        transform: translate(0px, -5px);
     }
 }

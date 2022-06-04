@@ -15,9 +15,6 @@
         <div class="header" id="header">
             <ul class="nav" id="navbar">
                 <li style="height: 50px;"><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
-                    <div class="cate">
-                        <i id="catemobile" class='bx bx-category'></i>
-                    </div>
                 </li>
                 <li class="menu"><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
                 <li class="menu"><a href="#">NIKE <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
@@ -25,6 +22,19 @@
                 <li class="menu"><a href="#">VANS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
                 <li class="menu"><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
                 <li class="menu"><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
+            </ul>
+            <div class="cate">
+                <i id="catemobile" class='bx bx-category'></i>
+            </div>
+            <ul class="nav-mobile" id="navbar-mobile">
+                <li class="li-special">TẤN PHÁT STORE <i id="btnclose" style="font-size: 30px;" class='bx bx-x'></i></li>
+                <li><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a></li>
+                <li><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
+                <li><a href="#">NIKE <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li><a href="#">ADIDAS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li><a href="#">VANS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
+                <li><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
             </ul>
             <div class="search">
                 <i class='bx bx-search-alt-2'></i>
@@ -405,25 +415,18 @@
         </div>
     </div>
     <script>
-        var header = document.getElementById('navbar');
+        var header = document.getElementById('navbar-mobile');
         var catemobile = document.getElementById('catemobile');
-        var menu = document.getElementsByClassName('menu');
+        var btnclose = document.getElementById('btnclose');
         catemobile.onclick = function() {
-            var close = header.clientHeight === 50;
-            if (close) {
-                header.style.height = '800px';
-            } else {
-                header.style.height = '50px';
-            }
-
+            header.style.marginLeft = '0px';
+            catemobile.style.fontSize = '1px';
+            catemobile.style.color = 'black';
         }
-
-        menu.onclick = function() {
-            if (close) {
-                header.style.height = '800px';
-            } else {
-                header.style.height = '50px';
-            }
+        btnclose.onclick = function() {
+            header.style.marginLeft = '-280px';
+            catemobile.style.fontSize = '40px';
+            catemobile.style.color = 'white';
         }
     </script>
 </body>
