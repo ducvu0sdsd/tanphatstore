@@ -74,9 +74,10 @@ body {
 .banner-mini {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 30px;
     flex-wrap: wrap;
+    height: 550px;
 }
 
 .banner-item {
@@ -85,7 +86,6 @@ body {
 }
 
 .new-arrivals {
-    margin-top: 170px;
     text-align: center;
 }
 
@@ -229,6 +229,7 @@ body {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .footer-map {
@@ -434,14 +435,44 @@ iframe {
 }
 
 
-/* table : width >= 740px  and width < 1024 px*/
+/* table : width < 1024 px*/
 
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+@media only screen and (max-width: 63.9375em) {
+    .nav {
+        display: block;
+        overflow: hidden;
+    }
+    .search {
+        display: none;
+    }
+    .cate {
+        display: block;
+    }
     .new-arrivals {
         margin-top: 0px;
     }
+    .footer-map {
+        height: 200px;
+        width: 90%;
+    }
+    .information {
+        width: 100%;
+        padding: 50px;
+    }
+    .text-footer {
+        display: none;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+
+/* table : width >= 740px  and width < 1024 px*/
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     .product {
-        width: 45%;
+        width: 250px;
     }
     .product .title {
         margin-top: 30px;
@@ -458,7 +489,7 @@ iframe {
         transform: translate(10px, -80px) rotate(20deg);
     }
     .product:hover .size {
-        transform: translate(10px, -110px);
+        transform: translate(-5px, -110px);
     }
     .product:hover .price {
         transform: translate(-53px, -90px);
@@ -466,14 +497,60 @@ iframe {
     .product:hover .action {
         transform: translate(0px, -100px);
     }
-    .nav {
-        display: block;
-        overflow: hidden;
+    .banner-mini {
+        height: 300px;
     }
-    .search {
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .item1 {
         display: none;
     }
+    .banner-item {
+        width: 45%;
+    }
+    .product {
+        width: 185px;
+        height: 320px;
+    }
+    .title {
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .size p {
+        font-size: 15px;
+    }
+    .number {
+        padding: 0px;
+    }
+    .product:hover .size {
+        transform: translate(- 10px, -110px);
+    }
+    .product:hover .price {
+        transform: translate(-30px, -90px);
+    }
+    .product .action button {
+        width: 44%;
+        height: 35px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .list-product {
+        width: 100%;
+    }
     .cate {
-        display: block;
+        transform: translate(-25px, -45px);
+    }
+    .tieudenew {
+        margin: -40px;
+    }
+    .title-shoe {
+        margin: auto;
+    }
+    .banner-mini {
+        height: 280px;
     }
 }
