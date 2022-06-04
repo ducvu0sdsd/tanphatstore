@@ -444,8 +444,6 @@ iframe {
     width: 240px;
     list-style: none;
     color: white;
-    border-radius: 15px;
-    /* transform: translateX(-280px);*/
     margin-left: -280px;
     transition: 0.5s;
     overflow: hidden;
@@ -457,7 +455,7 @@ iframe {
 }
 
 .nav-mobile .li-special i {
-    transform: translate(80px, 7px);
+    transform: translate(70px, 7px);
 }
 
 .cate {
@@ -515,7 +513,7 @@ iframe {
     }
     .nav-mobile {
         background-color: black;
-        margin-top: -55px;
+        margin-top: -36px;
     }
     .brand {
         display: block;
