@@ -441,11 +441,12 @@ iframe {
     line-height: 50px;
     padding: 20px;
     background-color: black;
-    width: 240px;
+    width: 270px;
     list-style: none;
     color: white;
-    margin-left: -280px;
+    margin-left: -310px;
     transition: 0.5s;
+    font-size: 15px;
 }
 
 .nav-mobile li a {
@@ -459,8 +460,8 @@ iframe {
 
 .cate {
     color: white;
-    font-size: 40px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 10px;
     display: none;
 }
 
