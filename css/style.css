@@ -459,9 +459,6 @@ iframe {
     .text-footer {
         display: none;
     }
-    .copyright {
-        display: none;
-    }
 }
 
 
@@ -554,5 +551,18 @@ iframe {
     }
     .banner {
         transform: translateY(30px);
+    }
+    .information {
+        height: 550px;
+    }
+    .copyright {
+        height: 50px;
+        transform: translateY(-55px);
+        line-height: 40px;
+    }
+    .copyright p {
+        margin-left: 5px;
+        font-size: 14px;
+        text-align: center;
     }
 }
