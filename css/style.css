@@ -51,14 +51,11 @@ body {
 .cate {
     line-height: 50px;
     font-size: 25px;
-    font-weight: bold;
-    float: right;
-    transform: translate(-10px, -45px);
-    display: none;
+    margin-left: 100%;
 }
 
-.search a,
-.cate a {
+.search,
+.cate {
     color: white;
 }
 
@@ -74,9 +71,8 @@ body {
 .banner-mini {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 30px;
-    flex-wrap: wrap;
     height: 550px;
 }
 
@@ -552,5 +548,8 @@ iframe {
     }
     .banner-mini {
         height: 280px;
+    }
+    .banner {
+        transform: translateY(30px);
     }
 }
