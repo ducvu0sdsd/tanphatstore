@@ -446,7 +446,6 @@ iframe {
     color: white;
     margin-left: -280px;
     transition: 0.5s;
-    overflow: hidden;
 }
 
 .nav-mobile li a {

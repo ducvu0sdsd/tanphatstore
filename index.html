@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper">
         <div class="header" id="header">
             <ul class="nav" id="navbar">
                 <li style="height: 50px;"><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
@@ -23,6 +23,10 @@
                 <li class="menu"><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
                 <li class="menu"><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
             </ul>
+
+            <div id="overlay">
+
+            </div>
             <div class="cate">
                 <i id="catemobile" class='bx bx-category'></i>
             </div>
@@ -43,7 +47,7 @@
                 <i class='bx bx-search-alt-2'></i>
             </div>
         </div>
-        <div class="content">
+        <div class="content" id="content">
             <div class="banner">
                 <img src="https://bizweb.dktcdn.net/100/413/756/collections/jordan-2.jpg?v=1617462460240" width="100%" alt="">
             </div>
@@ -421,13 +425,16 @@
         var header = document.getElementById('navbar-mobile');
         var catemobile = document.getElementById('catemobile');
         var btnclose = document.getElementById('btnclose');
+        var content = document.getElementById('content');
         catemobile.onclick = function() {
             header.style.marginLeft = '0px';
             catemobile.style.marginLeft = '-100px';
+            content.style.opacity = '0.5';
         }
         btnclose.onclick = function() {
             header.style.marginLeft = '-280px';
             catemobile.style.marginLeft = '0px';
+            content.style.opacity = '1';
         }
     </script>
 </body>
