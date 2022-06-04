@@ -14,7 +14,7 @@
     <div class="wrapper">
         <div class="header" id="header">
             <ul class="nav" id="navbar">
-                <li class="menu" style="height: 50px;"><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
+                <li style="height: 50px;"><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
                     <div class="cate">
                         <i id="catemobile" class='bx bx-category'></i>
                     </div>
@@ -407,7 +407,7 @@
     <script>
         var header = document.getElementById('navbar');
         var catemobile = document.getElementById('catemobile');
-
+        var menu = document.getElementsByClassName('menu');
         catemobile.onclick = function() {
             var close = header.clientHeight === 50;
             if (close) {
@@ -416,6 +416,15 @@
                 header.style.height = '50px';
             }
 
+        }
+
+        menu.onclick = function() {
+            var close = header.clientHeight === 50;
+            if (close) {
+                header.style.height = '800px';
+            } else {
+                header.style.height = '50px';
+            }
         }
     </script>
 </body>

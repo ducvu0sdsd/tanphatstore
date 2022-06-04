@@ -473,6 +473,9 @@ iframe {
     #catemobile {
         display: block;
     }
+    .menu {
+        width: 200px;
+    }
 }
 
 
