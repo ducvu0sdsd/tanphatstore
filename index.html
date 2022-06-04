@@ -389,7 +389,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        <div class="footer" id="footer">
             <a name="lienhe"></a>
             <div class="footer-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12871.60223241507!2d106.71229352900471!3d10.809419925276122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a59b4cbacd%3A0xcf39000fa152d925!2zQsOqzIFuIFhlIE1pw6rMgG4gxJDDtG5nIC0gQ-G7lW5nIHPhu5EgNSAocmEp!5e0!3m2!1svi!2sus!4v1654262063188!5m2!1svi!2sus"
@@ -422,12 +422,26 @@
         var catemobile = document.getElementById('catemobile');
         var btnclose = document.getElementById('btnclose');
         var content = document.getElementById('content');
+        var wrapper = document.getElementById('wrapper');
+        var footer = document.getElementById('footer');
         catemobile.onclick = function() {
             header.style.marginLeft = '0px';
             catemobile.style.marginLeft = '-100px';
-            content.style.opacity = '0.5';
+            content.style.opacity = '0.3';
         }
         btnclose.onclick = function() {
+            header.style.marginLeft = '-280px';
+            catemobile.style.marginLeft = '0px';
+            content.style.opacity = '1';
+        }
+
+        content.onclick = function() {
+            header.style.marginLeft = '-280px';
+            catemobile.style.marginLeft = '0px';
+            content.style.opacity = '1';
+        }
+
+        footer.onclick = function() {
             header.style.marginLeft = '-280px';
             catemobile.style.marginLeft = '0px';
             content.style.opacity = '1';
