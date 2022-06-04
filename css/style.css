@@ -100,7 +100,7 @@ body {
 
 .product {
     width: 22%;
-    height: 370px;
+    height: 360px;
     background-color: white;
     margin: 20px 0;
     border-radius: 15px;
@@ -147,11 +147,11 @@ body {
 }
 
 .product:hover .title {
-    transform: translate(0px, -80px);
+    transform: translate(0px, -70px);
 }
 
 .product:hover .price {
-    transform: translate(-50px, -90px);
+    transform: translate(-50px, -70px);
 }
 
 .size {
@@ -199,10 +199,11 @@ body {
 
 .product .action {
     transition: 0.5s;
+    margin-top: 20px;
 }
 
 .product:hover .action {
-    transform: translate(0px, -90px);
+    transform: translate(0px, -70px);
 }
 
 .number:hover {
@@ -471,12 +472,11 @@ iframe {
         width: 250px;
     }
     .product .title {
-        margin-top: 30px;
+        margin-top: 10px;
         height: 35px;
-        overflow: hidden;
     }
     .product .price {
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .product:hover .title {
         transform: translate(-5px, -70px);
@@ -488,10 +488,10 @@ iframe {
         transform: translate(-5px, -110px);
     }
     .product:hover .price {
-        transform: translate(-53px, -90px);
+        transform: translate(-53px, -70px);
     }
     .product:hover .action {
-        transform: translate(0px, -100px);
+        transform: translate(0px, -70px);
     }
     .banner-mini {
         height: 300px;
@@ -517,16 +517,19 @@ iframe {
         font-size: 15px;
     }
     .size p {
-        font-size: 15px;
+        font-size: 12px;
     }
     .number {
         padding: 0px;
     }
-    .product:hover .size {
-        transform: translate(- 10px, -110px);
+    .product:hover .title {
+        transform: translate(0px, -60px);
     }
     .product:hover .price {
-        transform: translate(-30px, -90px);
+        transform: translate(-30px, -65px);
+    }
+    .product:hover .action {
+        transform: translate(0px, -65px);
     }
     .product .action button {
         width: 44%;
