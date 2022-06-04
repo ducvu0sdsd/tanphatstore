@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tấn Phát Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header" id="header">
+            <ul class="nav" id="navbar">
+                <li style="height: 50px;"><a href="../index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
+                    <div class="cate">
+                        <i id="catemobile" class='bx bx-category'></i>
+                    </div>
+                </li>
+                <li class="menu"><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
+                <li class="menu"><a href="#">NIKE <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li class="menu"><a href="#">ADIDAS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li class="menu"><a href="#">VANS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
+                <li class="menu"><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
+                <li class="menu"><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
+            </ul>
+            <div class="search">
+                <i class='bx bx-search-alt-2'></i>
+            </div>
+        </div>
+        <div class="content">
+
+        </div>
+        <div class="footer">
+            <a name="lienhe"></a>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12871.60223241507!2d106.71229352900471!3d10.809419925276122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a59b4cbacd%3A0xcf39000fa152d925!2zQsOqzIFuIFhlIE1pw6rMgG4gxJDDtG5nIC0gQ-G7lW5nIHPhu5EgNSAocmEp!5e0!3m2!1svi!2sus!4v1654262063188!5m2!1svi!2sus"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="information">
+                <p style="margin-top: 65px; font-size: 25px;">CHÚNG TÔI LÀ <b>TẤN PHÁT STORE !</b></p>
+                <p><i class='bx bx-location-plus'></i> Address : Quận Bình Thạnh - TPHCM</p>
+                <p><i class='bx bx-phone'></i> Phone : 0902.491.471</p>
+                <p><i class='bx bx-envelope'></i> Email : tanphat2002@gmail.com</p>
+                <div class="contact-icon">
+                    <a href=""><i class='bx bxl-facebook-square' ></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+                <div class="text-footer">
+                    <p>Những năm nửa đầu thế kỉ 20 Từ màu trắng ngà và màu đen cổ điển, đôi giày Converse All Star bắt đầu khoác thêm cho mình nhiều màu sắc khác nhau.Những năm 70: Giày vải Converse đã xâm lấn sang thế giới âm nhạc với nhiều màu sắc hoa
+                        văn khác nhau, nó được các tay chơi rock rất hâm mộ. Ban nhạc The Ramones đã tiên phong trong việc quảng bá cho loại giày này. </p>
+                    <p> Converse All Star đen trắng là một trong những đôi giày mà huyền thoại âm nhạc Elvis Presley yêu thích nhất Năm 1974: Dòng Converse One Star lần đầu tiên xuất hiện mang ưu điểm chống trơn trượt. Vẫn là đế bằng cao su với ngôi sao mạnh
+                        mẽ. Năm 1976: Nhãn hiệu Converse Pro Star leather trở thành đôi giày chuyên dụng của các vận động viên bóng rổ.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@2022 - TẤN PHÁT STORE | MAKE BY VU TIEN DUC</p>
+        </div>
+    </div>
+    <script>
+        var header = document.getElementById('navbar');
+        var catemobile = document.getElementById('catemobile');
+        var menu = document.getElementsByClassName('menu');
+        catemobile.onclick = function() {
+            var close = header.clientHeight === 50;
+            if (close) {
+                header.style.height = '800px';
+            } else {
+                header.style.height = '50px';
+            }
+
+        }
+
+        menu.onclick = function() {
+            if (close) {
+                header.style.height = '800px';
+            } else {
+                header.style.height = '50px';
+            }
+        }
+    </script>
+</body>
+
+</html>
