@@ -26,6 +26,9 @@
             <div class="cate">
                 <i id="catemobile" class='bx bx-category'></i>
             </div>
+            <div class="brand">
+                <p>TẤN PHÁT STORE</p>
+            </div>
             <ul class="nav-mobile" id="navbar-mobile">
                 <li class="li-special">TẤN PHÁT STORE <i id="btnclose" style="font-size: 30px;" class='bx bx-x'></i></li>
                 <li><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a></li>
@@ -420,13 +423,11 @@
         var btnclose = document.getElementById('btnclose');
         catemobile.onclick = function() {
             header.style.marginLeft = '0px';
-            catemobile.style.fontSize = '1px';
-            catemobile.style.color = 'black';
+            catemobile.style.marginLeft = '-100px';
         }
         btnclose.onclick = function() {
             header.style.marginLeft = '-280px';
-            catemobile.style.fontSize = '40px';
-            catemobile.style.color = 'white';
+            catemobile.style.marginLeft = '0px';
         }
     </script>
 </body>
