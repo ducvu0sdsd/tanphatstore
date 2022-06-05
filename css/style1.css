@@ -363,4 +363,7 @@ iframe {
     .price {
         font-size: 18px;
     }
+    .product:hover .title {
+        transform: translate(0px, -50px);
+    }
 }
