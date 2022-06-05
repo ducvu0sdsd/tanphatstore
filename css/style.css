@@ -188,7 +188,7 @@ body {
 .product .action button {
     height: 35px;
     font-size: 17px;
-    width: 110px;
+    width: 45%;
     border-radius: 5px;
     border: none;
     background-color: black;
@@ -474,7 +474,7 @@ iframe {
     margin: auto;
     left: 0;
     right: 0;
-    top: 0;
+    top: 15px;
 }
 
 
