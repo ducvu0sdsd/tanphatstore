@@ -305,7 +305,7 @@ iframe {
         height: 200px;
     }
     .information {
-        margin: 30px 0;
+        margin: 30px;
     }
 }
 
@@ -350,7 +350,7 @@ iframe {
         transform: translate(0px, -70px);
     }
     .title {
-        font-size: 18px;
+        font-size: 15px;
         margin-top: -30px;
     }
     .product {
@@ -359,5 +359,8 @@ iframe {
     .product .action button {
         width: 85px;
         font-size: 12px;
+    }
+    .price {
+        font-size: 18px;
     }
 }
