@@ -6,62 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tấn Phát Store</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="JS/bootstrap.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div class="wrapper" id="wrapper">
-        <div class="header" id="header">
-            <ul class="nav" id="navbar">
-                <li style="height: 50px;"><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a>
-                </li>
-                <li class="menu"><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
-                <li class="menu"><a href="#">NIKE <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
-                <li class="menu"><a href="#">ADIDAS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
-                <li class="menu"><a href="#">VANS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></a></li>
-                <li class="menu"><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
-                <li class="menu"><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
-            </ul>
-            <div class="cate">
-                <i id="catemobile" class='bx bx-category'></i>
-            </div>
-            <div class="brand">
-                <p>TẤN PHÁT STORE</p>
-            </div>
-            <ul class="nav-mobile" id="navbar-mobile">
-                <li style="display: flex; justify-content: space-between; ">TẤN PHÁT STORE <i id="btnclose" style="font-size: 30px;margin-top: 10px;" class='bx bx-x'></i></li>
-                <li><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a></li>
-                <li><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
-                <li style="display: flex; justify-content: space-between;"><a href="#">NIKE</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
-                <li style="display: flex; justify-content: space-between;"><a href="#">ADIDAS</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
-                <li style="display: flex; justify-content: space-between;"><a href="#">VANS</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
-                <li><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
-                <li><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
-            </ul>
-            <div class="search">
-                <i class='bx bx-search-alt-2'></i>
-            </div>
+    <div class="header" id="header">
+        <ul class="nav" id="navbar">
+            <li class="navbar-item" style="height: 50px;">
+                <p><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a></p>
+            </li>
+            <li class="navbar-item">
+                <p><i class='bx bxs-duplicate'></i> DANH MỤC SẢN PHẨM</p>
+            </li>
+            <li class="navbar-item">
+                <p>NIKE <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></p>
+            </li>
+            <li class="navbar-item">
+                <p>ADIDAS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></p>
+            </li>
+            <li class="navbar-item">
+                <p>VANS <i class='bx bxs-down-arrow' style="font-size: 13px;"></i></p>
+            </li>
+            <li class="navbar-item" style="height: 50px;">
+                <p><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></p>
+            </li>
+            <li class="navbar-item" style="height: 50px;">
+                <p><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></p>
+            </li>
+        </ul>
+        <div class="cate">
+            <i id="catemobile" class='bx bx-category'></i>
         </div>
-        <div class="content" id="content">
-            <div class="banner">
+        <div class="brand">
+            <p>TẤN PHÁT STORE</p>
+        </div>
+        <ul class="nav-mobile" id="navbar-mobile">
+            <li style="display: flex; justify-content: space-between; ">TẤN PHÁT STORE <i id="btnclose" style="font-size: 30px;margin-top: 10px;" class='bx bx-x'></i></li>
+            <li><a href="index.html"><i class='bx bx-home' ></i> TRANG CHỦ</a></li>
+            <li><a href="#"><i class='bx bxs-duplicate' ></i> DANH MỤC SẢN PHẨM</a></li>
+            <li style="display: flex; justify-content: space-between;"><a href="#">NIKE</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
+            <li style="display: flex; justify-content: space-between;"><a href="#">ADIDAS</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
+            <li style="display: flex; justify-content: space-between;"><a href="#">VANS</a> <i class='bx bxs-right-arrow' id="btn" style="font-size: 15px; margin-top: 20px;"></i></li>
+            <li><a href="#"><i class='bx bx-money-withdraw'></i> GIẢM GIÁ</a></li>
+            <li><a href="#lienhe"><i class='bx bxs-phone-call' ></i> LIÊN HỆ</a></li>
+        </ul>
+        <div class="search">
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+    </div>
+    <div class="container-fluid" id="content">
+        <div class="row">
+            <div class="col-xl-12">
                 <img src="https://bizweb.dktcdn.net/100/413/756/collections/jordan-2.jpg?v=1617462460240" width="100%" alt="">
             </div>
-            <div class="banner-mini">
-                <div class="banner-item">
-                    <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
-                </div>
-                <div class="banner-item">
-                    <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
-                </div>
-                <div class="banner-item item1">
-                    <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
-                </div>
-            </div> <br>
-            <div class="new-arrivals">
-                <h1 style="margin: 20px 0;"><i class='bx bxl-sketch'></i> NEW ARRIVALS <i class='bx bxl-sketch'></i></h1>
-                <div class="list-product">
-                    <div class="row">
+        </div>
+        <div class="row banner-mini">
+            <div class="col-lg-3">
+                <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
+            </div>
+            <div class="col-lg-3">
+                <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
+            </div>
+            <div class="col-lg-3 can-none">
+                <img src="https://img.freepik.com/free-vector/black-friday-sale-banner-with-colorful-sneakers_1284-30132.jpg?w=2000" width="100%" alt="">
+            </div>
+        </div>
+        <div class="row new-arrivals">
+            <div class="col-lg-12">
+                <h1 style="margin: 20px 0; text-align: center; font-weight: bold;font-size: 32px;"><i class='bx bxl-sketch'></i> NEW ARRIVALS <i class='bx bxl-sketch'></i></h1>
+            </div>
+            <div class="list-product">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -72,7 +91,7 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (1).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (8).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
@@ -81,6 +100,8 @@
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -91,55 +112,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (2).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (9).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (3).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (4).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -150,87 +133,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (5).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (10).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (6).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (7).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (8).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="new-arrivals">
-                <div class="title-shoe">
-                    <div class="shoe">
-                        <div class="tieudenew">GIÀY NIKE JORDAN</div>
-                    </div>
-
-                    <div class="banner-product-shoe">
-                        <img src="https://cdn.mykiot.vn/2021/02/1613628364cf7ca299520c8fdae45156916e7f4024.png" width="100%" alt="">
-                    </div>
-                </div>
-                <div class="list-product">
-                    <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -241,74 +154,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (1).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (11).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (2).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (3).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
-                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
-                            </div>
-                        </div>
-                        <div class="product">
-                            <div class="icon">
-                                <div class="info">
-                                    <a href=""><i class='bx bx-info-circle'></i></a>
-                                </div>
-                                <div class="love">
-                                    <a href=""><i class='bx bx-heart'></i></a>
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="image/nike/pixlr-bg-result (4).png" width="90%" alt="">
-                            </div>
-                            <div class="title">Air Jordan 1 Retro High OG</div>
-                            <div class="price">600.000 VND</div>
-                            <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -319,15 +175,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (5).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (12).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -338,15 +196,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (6).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (12).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -357,15 +217,17 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (7).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (1).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
                         <div class="product">
                             <div class="icon">
                                 <div class="info">
@@ -376,45 +238,102 @@
                                 </div>
                             </div>
                             <div class="image">
-                                <img src="image/nike/pixlr-bg-result (8).png" width="90%" alt="">
+                                <img src="image/nike/pixlr-bg-result (2).png" width="100%" alt="">
                             </div>
                             <div class="title">Air Jordan 1 Retro High OG</div>
                             <div class="price">600.000 VND</div>
                             <div class="action">
-                                <a href=""><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                        <div class="product">
+                            <div class="icon">
+                                <div class="info">
+                                    <a href=""><i class='bx bx-info-circle'></i></a>
+                                </div>
+                                <div class="love">
+                                    <a href=""><i class='bx bx-heart'></i></a>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="image/nike/pixlr-bg-result (3).png" width="100%" alt="">
+                            </div>
+                            <div class="title">Air Jordan 1 Retro High OG</div>
+                            <div class="price">600.000 VND</div>
+                            <div class="action">
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                        <div class="product">
+                            <div class="icon">
+                                <div class="info">
+                                    <a href=""><i class='bx bx-info-circle'></i></a>
+                                </div>
+                                <div class="love">
+                                    <a href=""><i class='bx bx-heart'></i></a>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="image/nike/pixlr-bg-result (4).png" width="100%" alt="">
+                            </div>
+                            <div class="title">Air Jordan 1 Retro High OG</div>
+                            <div class="price">600.000 VND</div>
+                            <div class="action">
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                        <div class="product">
+                            <div class="icon">
+                                <div class="info">
+                                    <a href=""><i class='bx bx-info-circle'></i></a>
+                                </div>
+                                <div class="love">
+                                    <a href=""><i class='bx bx-heart'></i></a>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="image/nike/pixlr-bg-result (5).png" width="100%" alt="">
+                            </div>
+                            <div class="title">Air Jordan 1 Retro High OG</div>
+                            <div class="price">600.000 VND</div>
+                            <div class="action">
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
+                                <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                        <div class="product">
+                            <div class="icon">
+                                <div class="info">
+                                    <a href=""><i class='bx bx-info-circle'></i></a>
+                                </div>
+                                <div class="love">
+                                    <a href=""><i class='bx bx-heart'></i></a>
+                                </div>
+                            </div>
+                            <div class="image">
+                                <img src="image/nike/pixlr-bg-result (6).png" width="100%" alt="">
+                            </div>
+                            <div class="title">Air Jordan 1 Retro High OG</div>
+                            <div class="price">600.000 VND</div>
+                            <div class="action">
+                                <a href="infomation/info.html"><button style="margin-right: 5px;"><i class='bx bx-info-circle'></i> Thông Tin</button></a>
                                 <a href=""><button><i class='bx bx-cart' ></i> Đặt Mua</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer" id="footer">
-            <a name="lienhe"></a>
-            <div class="footer-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12871.60223241507!2d106.71229352900471!3d10.809419925276122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529a59b4cbacd%3A0xcf39000fa152d925!2zQsOqzIFuIFhlIE1pw6rMgG4gxJDDtG5nIC0gQ-G7lW5nIHPhu5EgNSAocmEp!5e0!3m2!1svi!2sus!4v1654262063188!5m2!1svi!2sus"
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="information">
-                <p style="margin-top: 65px; font-size: 25px;">CHÚNG TÔI LÀ <b>TẤN PHÁT STORE !</b></p>
-                <p><i class='bx bx-location-plus'></i> Address : Quận Bình Thạnh - TPHCM</p>
-                <p><i class='bx bx-phone'></i> Phone : 0902.491.471</p>
-                <p><i class='bx bx-envelope'></i> Email : tanphat2002@gmail.com</p>
-                <div class="contact-icon">
-                    <a href=""><i class='bx bxl-facebook-square' ></i></a>
-                    <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-                </div>
-                <div class="text-footer">
-                    <p>Những năm nửa đầu thế kỉ 20 Từ màu trắng ngà và màu đen cổ điển, đôi giày Converse All Star bắt đầu khoác thêm cho mình nhiều màu sắc khác nhau.Những năm 70: Giày vải Converse đã xâm lấn sang thế giới âm nhạc với nhiều màu sắc hoa
-                        văn khác nhau, nó được các tay chơi rock rất hâm mộ. Ban nhạc The Ramones đã tiên phong trong việc quảng bá cho loại giày này. </p>
-                    <p> Converse All Star đen trắng là một trong những đôi giày mà huyền thoại âm nhạc Elvis Presley yêu thích nhất Năm 1974: Dòng Converse One Star lần đầu tiên xuất hiện mang ưu điểm chống trơn trượt. Vẫn là đế bằng cao su với ngôi sao mạnh
-                        mẽ. Năm 1976: Nhãn hiệu Converse Pro Star leather trở thành đôi giày chuyên dụng của các vận động viên bóng rổ.</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="copyright">
-            <p>@2022 - TẤN PHÁT STORE | MAKE BY VU TIEN DUC</p>
         </div>
     </div>
     <script>
