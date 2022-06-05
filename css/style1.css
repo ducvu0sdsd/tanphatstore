@@ -112,6 +112,23 @@ body {
     margin: 50px 0;
 }
 
+.title-shoe .tieudenew {
+    margin: 20px 0;
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    width: 300px;
+    background-color: black;
+    font-weight: bold;
+    transform: translateY(22px);
+}
+
+.shoe {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+
 .list-product {
     background-color: rgb(245, 244, 244);
     margin: auto;
@@ -219,6 +236,44 @@ body {
     background-color: orange;
 }
 
+.footer {
+    transition: all 0.5s;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-map {
+    height: 630px;
+}
+
+iframe {
+    margin-top: 65px;
+}
+
+.information {
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.contact-icon {
+    font-size: 40px;
+    padding-bottom: 20px;
+    border-bottom: 5px dashed white;
+}
+
+.contact-icon a {
+    color: white;
+}
+
+.copyright {
+    line-height: 30px;
+    color: white;
+    background-color: #333;
+}
+
 
 /* table : width < 1024 px*/
 
@@ -242,6 +297,15 @@ body {
     }
     .brand {
         display: block;
+    }
+    .text-footer {
+        display: none;
+    }
+    .footer-map {
+        height: 200px;
+    }
+    .information {
+        margin: 30px 0;
     }
 }
 
