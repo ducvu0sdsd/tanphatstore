@@ -153,6 +153,38 @@ body {
     transform: translate(-50px, -70px);
 }
 
+.size {
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.size p {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.number-size {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.product:hover .size {
+    transform: translate(0px, -110px);
+}
+
 .product .action button {
     height: 35px;
     font-size: 17px;
